@@ -1,4 +1,4 @@
-function lengthRange(inputtxt,5,10)
+function lengthRange()
 {  	
    var userInput = inputtxt.value;  
    if(userInput.length >= 5 && userInput.length <= 10)
@@ -10,4 +10,6 @@ function lengthRange(inputtxt,5,10)
 	alert("Please input between " +5+ " and " +10+ " characters");  		
         return false;  	
       }  
+}
 
+console.log("Acceptable");
